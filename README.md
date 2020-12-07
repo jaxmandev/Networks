@@ -1,50 +1,53 @@
-What is a Network? ≈
-
+## What is a Network?
+```
 It is a group of two or more devices called nodes that can communicate. The nodes communicate via a connection either physical or wireless. 
+```
 
-A network establishes connections between nodes. 
-Once nodes are connected they can communciate with each other and share data, software, storage and access to input or output devices.
+- A network establishes connections between nodes. 
+- Once nodes are connected they can communciate with each other and share data, software, storage and access to input or output devices.
 
-Not only does this make resource allocation more economical, but it also makes each device more efficient.
+- Not only does this make resource allocation more economical, but it also makes each device more efficient.
 
-3 defining features 
-Topology —> 
-refers to the layout of a network. How different nodes in a network are connected to each other and how they communicate is determined by the network's topology.
- Topologies are either physical or logical.
+### 3 defining features 
+```
+1. Topology
+- refers to the layout of a network. 
+- How different nodes in a network are connected to each other and how they communicate is determined by the network's topology.
+- Topologies are either physical or logical.
 
+2. Protocol —> An agreed-upon format for transmitting data between two devices. Includes the data compression method. (e.g. HTTP, IP, TCP)
+
+3. Architecture defines its broad outlines, and may define precise mechanisms as well such as the structure of task distribution among connected devices
+```
+#### Examples of topologies
+```
 Full mesh 
-Where each node is connected to every node
-Not great because of high redundancies 
+- Where each node is connected to every node
+- Not great because of high redundancies 
+
 Partial mesh 
 - Where some nodes are organized in full mesh while other are only connected to 1 or 2 other nodes
 
 Star 
-Nodes are connected to a central node called a hub. Communication passes through the hub. - One malfunctioning node doesnt not affect the rest of network. Central node doesnt work and the entire network becomes unusable.
+- Nodes are connected to a central node called a hub. 
+- Communication passes through the hub. 
+- One malfunctioning node doesnt not affect the rest of network. Central node doesnt work and the entire network becomes unusable.
 
 Bus
-- A bus or backbone is the main wire that connects all devices on a Local Area Network (LAN). Inexpensive and easy to install for small networks. Ethernet systems use bus topology.
+- A bus or backbone is the main wire that connects all devices on a Local Area Network (LAN). 
+- Inexpensive and easy to install for small networks. Ethernet systems use bus topology.
+```
 
-Protocol —> An agreed-upon format for transmitting data between two devices. Includes the data compression method. (e.g. HTTP, IP, TCP)
+## What Is IP?
+- IP by itself is something like the postal system. It allows you to address a package and drop it in the system, but there's no direct link between you and the recipient.
+- Refers to a set of rules that describes how data packets move through a network.
 
-Architecture defines its broad outlines, and may define precise mechanisms as well such as the structure of task distribution among connected devices
-
-
-
-
-
-
-
-
-What Is IP?  
-IP by itself is something like the postal system. It allows you to address a package and drop it in the system, but there's no direct link between you and the recipient.
-
-Refers to a set of rules that describes how data packets move through a network.
-
+```
+A protocol ensures that all the machines on a network (or in the world, when it comes to the internet), however different they might be, speak the same "language" and can integrate into the framework.
+```
 Most networks combine IP with a higher-level protocol called Transmission Control Protocol (TCP), which establishes a virtual connection between a destination and a source.
 
-A protocol ensures that all the machines on a network (or in the world, when it comes to the internet), however different they might be, speak the same "language" and can integrate into the framework.
-
-The IP protocol standardizes the way machines over the internet or any IP network forward or route their packets based on their IP addresses.
+#### The IP protocol standardizes the way machines over the internet or any IP network forward or route their packets based on their IP addresses.
 
 
 
